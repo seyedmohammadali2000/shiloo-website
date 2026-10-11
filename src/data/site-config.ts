@@ -6,7 +6,9 @@ export const siteConfig = {
   description:
     "شیلو؛ معماری رفتار، گیمیفیکیشن و حل مسئله. از شناخت انسان و سیستم تا طراحی مداخله‌های قابل اجرا و قابل سنجش.",
   // Set the production origin before deployment (e.g. https://your-domain.ir).
-  url: process.env.NEXT_PUBLIC_SITE_URL || "",
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://shiloo-website.lonarddasi.chatgpt.site",
   // Temporary wordmark is used until an original logo path is provided.
   logo: { src: "", alt: "شیلو | SHILOO", width: 140, height: 52 },
   phone: "00989361167048",

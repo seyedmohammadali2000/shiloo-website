@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { caseStudies } from "@/data/case-studies";
 import { PageHero, FinalCTA } from "@/components/ui";
 import { Icon } from "@/components/icon";
+export const dynamicParams = false;
 export function generateStaticParams() {
   return caseStudies.map((s) => ({ slug: s.id }));
 }
